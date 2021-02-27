@@ -1,1 +1,93 @@
-sd
+<html>
+	<head>
+		<title> Trang Sign Up </title>
+	</head>
+	<body>
+		<div id="container">
+		<form action="abc.php" method="post" style="width:500px; margin:10px auto;background: #BBDEFB;
+    border-radius: 25px;padding:5px; padding-left:30px; padding-right:30px; padding-bottom:50px ">
+		<h1 style="text-align:center;;"> Sign up </h1>
+		
+		<span style="font-size: 22px;border-radius:100%;color: white;background: #F57C00; display: inline-block; padding: 10px 15px 10px 14px";> 1 </span> 
+		
+		<span style="font-weight:bold;font-size: 20px; "> Your basic info </span>
+		<br>
+		<span> Name:</span>
+		<br>
+		<input type="text" name="username" placeholder="Input your username"    style="margin-top: 20px;
+    margin-bottom: 20px;width:100%;padding-top:10px;padding-bottom:10px;padding-left:10px "> </input> 
+		<br>
+		<span> Email:</span>
+		<br>
+		<input type="text" name="email" placeholder="Input your Email"     style="margin-top: 20px;
+    margin-bottom: 20px;width:100%;padding-top:10px;padding-bottom:10px;padding-left:10px"> </input> 
+		<br>
+		<span> Password:</span>
+		<br>
+		<input type="password" name="username" placeholder="Input your password"      style="margin-top: 20px;
+    margin-bottom: 20px;width:100%;padding-top:10px;padding-bottom:10px;padding-left:10px"> </input> 
+		<br>
+		Age
+		<br>
+		<input type="radio" value="under13" name="age_user"> Under 13 year old  </input>
+		<br>
+		<input type="radio" value="over13" name="age_user">  13 or older  </input>
+		<br>
+		<!-- Part II -->
+		<span style="font-size: 22px;border-radius:100%;color: white;background: #F57C00; display: inline-block; padding: 10px 15px 10px 14px";> 2 </span> 
+		<span style="font-weight:bold;font-size: 20px; "> Your profile </span>
+		<br>
+		<span> Biography </span>
+		<br>
+		<textarea  id="bio" placeholder="Input your bio here" cols="70" rows="5"> </textarea>
+		<br>
+		<span style="font-size:20px;font-weight:bold"> Job Role</span>
+		<select name="job" id="jobid"> 
+			<optgroup label = "Web" style="font-weight:bold">
+				<option value="WXP"> Window XP </option>
+				<option value="WXSP2"> Window XP SP2 </option>
+				<option value="WVT"> Window Vista</option>
+			</optgroup>
+			
+			<optgroup label = "Mobile" style="font-weight:bold">
+				<option value="f"> Flutter </option>
+				<option value="k"> Kotlin </option>
+				<option value="and"> Android</option>
+			</optgroup>
+			
+			<optgroup label = "Business" style="font-weight:bold">
+				<option value="asd"> Window XP </option>
+				<option value="zxc"> Window XP SP2 </option>
+				<option value="qwe"> Window Vista</option>
+			</optgroup>
+			
+			<optgroup label = "Others" style="font-weight:bold">
+			</optgroup>
+			
+			
+				<option value="demo1"> New option 1 </option>
+				<option value="demo2"> New option 2 </option>
+				<option value="demo3"> New option 3</option>
+			
+		</select>
+		<br>
+			<span style="font-size:20px;font-weight:bold"> Interests: </span>
+			<br>
+				<input type="checkbox" name="job" value="Development"> Development </input>
+			<br>
+				<input type="checkbox" name="job" value="Design"> Design </input>
+			<br>
+				<input type="checkbox" name="job" value="Business"> Business </input>
+			<br>
+			
+				<input type="submit" name="btnSend" value="Sign up Now " style="background: #1E88E5;padding: 20px;width: 100%;color: white;font-size: 20px;font-weight: bold;"> </input>
+		
+		</form>
+		
+		
+		</div>
+	
+	
+	</body>
+
+</html>
